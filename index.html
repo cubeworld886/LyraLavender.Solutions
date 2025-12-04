@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="es" class="no-js">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lyra Labander Solutions — Tecnología a la medida en software, IoT e IA aplicada</title>
+  <meta name="description" content="Diseñamos y desplegamos soluciones de software, IoT e inteligencia artificial a la medida para empresas que necesitan resultados medibles: más control operativo, mejores decisiones y crecimiento rentable." />
+  <meta property="og:title" content="Lyra Labander Solutions — Tecnología a la medida en software, IoT e IA aplicada" />
+  <meta property="og:description" content="Soluciones de software, IoT e IA aplicada diseñadas para operar mejor, decidir más rápido y crecer con base en datos." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#0c0a14" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="icon" href="assets/img/LogoJPG.png">
+  <script defer src="https://cdn.jsdelivr.net/npm/three@0.160.1/build/three.min.js"></script>
+  <script defer src="assets/js/main.js"></script>
+</head>
+<body>
+  <a class="skiplink" href="#contenido">Saltar al contenido</a>
+
+  <!-- Loader -->
+  <div id="loader" aria-hidden="true">
+    <div class="loader-core">
+      <div class="loader-stars" aria-hidden="true"></div>
+      <p>Desplegando constelaciones…</p>
+    </div>
+  </div>
+
+  <!-- Nebulosas -->
+  <div class="nebulas" aria-hidden="true">
+    <div class="nebula n1"></div>
+    <div class="nebula n2"></div>
+    <div class="nebula n3"></div>
+  </div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#inicio" class="brand" aria-label="Ir al inicio">
+        <img src="assets/img/LogoJPG.png" alt="Isotipo de Lyra Labander Solutions" class="brand-mark" />
+        <span class="wordmark">Lyra Labander <strong>Solutions</strong></span>
+      </a>
+      <nav class="nav" aria-label="Principal">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="menu">☰</button>
+        <ul id="menu">
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#sectores">Sectores</a></li>
+          <li><a href="#proceso">Proceso</a></li>
+          <li><a href="#casos">Casos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a class="btn btn-primary btn-small" href="#contrata" data-open-cotizador>Contratar</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <!-- HERO -->
+    <section class="hero" id="inicio" aria-label="Bienvenida">
+      <canvas id="starfield" class="starfield" aria-hidden="true"></canvas>
+      <div id="three-root" class="three-root" aria-hidden="true"></div>
+
+      <div class="hero-inner container fx-hero">
+        <div class="hero-copy">
+          <img src="assets/img/LogoPNG.png" alt="Lyra Labander Solutions" class="hero-logo">
+          <h1 class="fx-reveal-1">
+            Tecnología a la medida para operaciones que no pueden fallar
+          </h1>
+          <p class="lead fx-reveal-2">
+            Diseñamos y construimos sistemas en software, IoT e inteligencia artificial que eliminan fricción operativa,
+            aumentan el control sobre tu negocio y abren nuevas fuentes de ingreso.
+          </p>
+          <div class="hero-cta fx-reveal-3">
+            <a class="btn btn-primary" href="#servicios">Explorar servicios</a>
+            <a class="btn btn-ghost" href="#contrata" data-open-cotizador>Contratar ahora</a>
+          </div>
+          <div class="hero-badges fx-reveal-4" aria-label="Tecnologías destacadas">
+            <span>IoT</span><span>IA aplicada</span><span>Nube</span><span>Edge</span><span>Mobile</span>
+          </div>
+          <p class="hero-note fx-reveal-4">
+            Interactúa con la galaxia: mueve el cursor o toca la pantalla para ver cómo responde el entorno.
+          </p>
+        </div>
+      </div>
+      <div class="scroll-indicator" aria-hidden="true">
+        <span>Desplázate</span>
+        <div class="mouse"></div>
+      </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section class="section container" id="servicios" aria-labelledby="t-servicios">
+      <h2 id="t-servicios" class="section-title">Servicios que convierten tecnología en resultados</h2>
+      <p class="section-subtitle">
+        Alineamos arquitectura, datos y experiencia de usuario con los objetivos de tu negocio.
+        Cada proyecto se diseña para impactar ingresos, costos y calidad de servicio,
+        no solo para “salir en producción”. <span class="accent-text">Tecnología como palanca de negocio, no como costo fijo.</span>
+      </p>
+
+      <div class="cards-grid">
+        <!-- Software a la medida -->
+        <article class="card tilt fx-item" tabindex="0">
+          <div class="card-glow"></div>
+          <div class="card-icon" aria-hidden="true">
+            <span class="icon-badge">&lt;/&gt;</span>
+          </div>
+          <h3>Software a la medida</h3>
+          <p>Aplicaciones web, APIs y backends diseñados exactamente como opera tu empresa, para que el sistema se adapte a tu proceso y no al revés.</p>
+          <ul class="pill-list">
+            <li>Arquitectura moderna</li>
+            <li>APIs escalables</li>
+            <li>Observabilidad y monitoreo</li>
+            <li>Seguridad aplicada al negocio</li>
+          </ul>
+        </article>
+
+        <!-- Integración IoT -->
+        <article class="card tilt fx-item" tabindex="0">
+          <div class="card-glow"></div>
+          <div class="card-icon" aria-hidden="true">
+            <span class="icon-badge">IoT</span>
+          </div>
+          <h3>Integración IoT</h3>
+          <p>Conectamos equipos físicos, sensores y sistemas legados para darte visibilidad en tiempo real y automatizar decisiones críticas.</p>
+          <ul class="pill-list">
+            <li>Telemetría en tiempo real</li>
+            <li>Edge computing</li>
+            <li>Protocolos industriales</li>
+            <li>Monitoreo continuo y alertas</li>
+          </ul>
+        </article>
+
+        <!-- Experiencias mobile -->
+        <article class="card tilt fx-item" tabindex="0">
+          <div class="card-glow"></div>
+          <div class="card-icon" aria-hidden="true">
+            <span class="icon-badge">App</span>
+          </div>
+          <h3>Experiencias mobile</h3>
+          <p>Desarrollamos apps nativas e híbridas centradas en el usuario, preparadas para escalar a decenas de miles de clientes y operaciones diarias.</p>
+          <ul class="pill-list">
+            <li>iOS y Android</li>
+            <li>Flutter / React Native</li>
+            <li>Integración con sistemas existentes</li>
+            <li>Analítica de uso integrada</li>
+          </ul>
+        </article>
+
+        <!-- Estrategia y UX -->
+        <article class="card tilt fx-item" tabindex="0">
+          <div class="card-glow"></div>
+          <div class="card-icon" aria-hidden="true">
+            <span class="icon-badge">UX</span>
+          </div>
+          <h3>Estrategia y UX</h3>
+          <p>Definimos junto contigo qué construir, para quién y con qué métricas de éxito, reduciendo el riesgo de invertir en productos que nadie usa.</p>
+          <ul class="pill-list">
+            <li>Discovery y research</li>
+            <li>Design sprints</li>
+            <li>Prototipos navegables</li>
+            <li>Métricas de producto y adopción</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- SECTORES -->
+    <section class="section container" id="sectores" aria-labelledby="t-sectores">
+      <h2 id="t-sectores" class="section-title">Sectores donde generamos impacto</h2>
+      <p class="section-subtitle">
+        Aplicamos un mismo enfoque en todas las industrias: entender primero el contexto operativo y las restricciones reales,
+        después proponer la tecnología adecuada. <span class="accent-text">Menos buzzwords, más casos de uso concretos.</span>
+      </p>
+
+      <div class="sectors-grid">
+        <button class="sector fx-item" type="button">
+          <span class="sector-icon" aria-hidden="true">GF</span>
+          <h3>Gimnasios y fitness</h3>
+          <p>Sistemas de membresías, control de acceso, sensores de ocupación y apps para socios que aumentan renovaciones y reducen fricción en recepción.</p>
+        </button>
+        <button class="sector fx-item" type="button">
+          <span class="sector-icon" aria-hidden="true">RT</span>
+          <h3>Retail</h3>
+          <p>Integración de POS, inventarios en tiempo real y analítica en piso de venta para evitar quiebres de stock, optimizar surtido y mejorar ticket promedio.</p>
+        </button>
+        <button class="sector fx-item" type="button">
+          <span class="sector-icon" aria-hidden="true">MFG</span>
+          <h3>Manufactura</h3>
+          <p>Telemetría de máquina, trazabilidad y mantenimiento predictivo conectados a tus indicadores de producción, calidad y disponibilidad.</p>
+        </button>
+        <button class="sector fx-item" type="button">
+          <span class="sector-icon" aria-hidden="true">EN</span>
+          <h3>Energía y utilities</h3>
+          <p>Monitoreo remoto, detección temprana de fallos y automatización de alertas para infraestructuras que requieren alta disponibilidad.</p>
+        </button>
+        <button class="sector fx-item" type="button">
+          <span class="sector-icon" aria-hidden="true">HC</span>
+          <h3>Salud y bienestar</h3>
+          <p>Plataformas para clínicas, laboratorios y servicios de bienestar que integran agenda, expedientes y comunicación con pacientes de forma segura.</p>
+        </button>
+        <button class="sector fx-item" type="button">
+          <span class="sector-icon" aria-hidden="true">LOG</span>
+          <h3>Logística y cadena de frío</h3>
+          <p>Rastreo en tiempo real, control de temperatura y cumplimiento de rutas para disminuir mermas y asegurar entregas a tiempo.</p>
+        </button>
+      </div>
+    </section>
+
+    <!-- PROCESO -->
+    <section class="section container" id="proceso" aria-labelledby="t-proceso">
+      <h2 id="t-proceso" class="section-title">Nuestro proceso para proyectos que llegan a producción</h2>
+      <p class="section-subtitle">
+        Trabajamos con un marco claro, pensado para avanzar rápido sin perder control sobre alcance, calidad y riesgos.
+      </p>
+      <ol class="process fx-stagger" aria-label="Pasos del proceso">
+        <li>
+          <h3>1. Descubrimiento y alineación</h3>
+          <p>Reunimos a los responsables clave para entender objetivos, restricciones, sistemas actuales y métricas de éxito. A partir de ahí definimos el problema real que vale la pena resolver.</p>
+        </li>
+        <li>
+          <h3>2. Diseño de solución y prototipo</h3>
+          <p>Diseñamos la arquitectura propuesta, flujos clave y un prototipo navegable que permite validar la solución con usuarios y stakeholders antes de invertir en desarrollo completo.</p>
+        </li>
+        <li>
+          <h3>3. Desarrollo iterativo</h3>
+          <p>Construimos en sprints cortos con demos frecuentes, backlog priorizado y feedback continuo. El cliente ve avances reales en cada iteración, no solo reportes.</p>
+        </li>
+        <li>
+          <h3>4. Despliegue, adopción y evolución</h3>
+          <p>Acompañamos el paso a producción, la integración con tus sistemas y la capacitación de equipos. Medimos uso y resultados para planear siguientes fases y mejoras.</p>
+        </li>
+      </ol>
+    </section>
+
+<section class="section container" id="casos" aria-labelledby="t-casos">
+  <h2 id="t-casos" class="section-title">Casos y resultados</h2>
+  <p class="section-subtitle">
+    No hablamos de potencial, hablamos de proyectos que ya están operando y generando impacto medible.
+  </p>
+  <div class="cases">
+    <!-- Caso 1 -->
+    <article class="case fx-item" data-case>
+      <div class="case-media">
+        <img src="assets/img/img2.jpeg"
+             alt="GymChain — acceso inteligente y app de socios"
+             loading="lazy">
+      </div>
+      <div class="case-body">
+        <h3>GymChain – acceso inteligente y app de socios</h3>
+        <p>Implementamos un sistema unificado de control de acceso, gestión de membresías y app para socios en una cadena de gimnasios con múltiples sedes.</p>
+        <ul class="metrics">
+          <li><strong>38&nbsp;%</strong> menos filas en horas pico</li>
+          <li><strong>22&nbsp;%</strong> más renovaciones de membresía</li>
+          <li><strong>99.95&nbsp;%</strong> de disponibilidad del sistema</li>
+        </ul>
+      </div>
+    </article>
+
+    <!-- Caso 2 – FlorExpress -->
+<article class="case fx-item" data-case>
+  <div class="case-media m3">
+    <img src="assets/img/img1.jpeg"
+         alt="FlorExpress — marketplace de florerías locales"
+         loading="lazy">
+  </div>
+  <div class="case-body">
+    <h3>FlorExpress – marketplace de florerías locales</h3>
+    <p>
+      Diseñamos y construimos una plataforma de comercio electrónico que conecta a clientes con
+      florerías locales, con catálogo administrable, carrito, módulo de direcciones y paneles
+      separados para administrador y florerías afiliadas.
+    </p>
+    <ul class="metrics">
+      <li>Panel administrativo para gestionar florerías, artículos e inventario.</li>
+      <li>Panel de florería con vista de pedidos del día e indicadores de desempeño.</li>
+      <li>Flujo completo de compra: catálogo, carrito, dirección, pago y consulta de pedidos.</li>
+      <li>Base preparada para integrar métricas de negocio y automatización logística.</li>
+    </ul>
+  </div>
+</article>
+  </div>
+</section>
+
+    <!-- CTA DESTACADA -->
+    <section class="cta section container" id="contrata" aria-labelledby="t-cta">
+      <h2 id="t-cta" class="section-title">Trae tu reto. Diseñamos la solución que lo convierta en resultados.</h2>
+      <p class="section-subtitle">
+        Cuéntanos qué quieres lograr, qué sistemas tienes hoy y dónde están los principales cuellos de botella.
+        En 48 horas hábiles te devolvemos una propuesta de enfoque, alcance y tiempos.
+      </p>
+      <div class="cta-actions">
+        <button class="btn btn-primary btn-large" data-open-cotizador>Solicitar propuesta</button>
+        <a class="btn btn-ghost btn-large" href="#contacto">Hablar con un especialista</a>
+      </div>
+      <small class="disclaimer">Plazo referencial para proyectos estándar. Puede ajustarse según complejidad y urgencia.</small>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="section container" id="contacto" aria-labelledby="t-contacto">
+      <h2 id="t-contacto" class="section-title">Contacto</h2>
+      <p class="section-subtitle">
+        Si estás evaluando un proyecto de software, IoT o IA aplicada, podemos ayudarte a aterrizar el alcance
+        y estimar inversión sin compromiso.
+      </p>
+      <div class="contact-grid fx-item">
+        <div class="contact-card">
+          <h3>Escríbenos</h3>
+          <p><a href="mailto:contacto@lyralabander.com">contacto@lyralabander.com</a></p>
+          <p><a href="tel:+525500000000">+52&nbsp;55&nbsp;0000&nbsp;0000</a></p>
+        </div>
+        <div class="contact-card">
+          <h3>Ubicación</h3>
+          <p>Operamos desde Ciudad de México para proyectos en toda Latinoamérica y otros mercados.</p>
+        </div>
+        <div class="contact-card">
+          <h3>Síguenos</h3>
+          <p class="socials">
+            <a href="#" class="social-icon" aria-label="LinkedIn">in</a>
+            <a href="#" class="social-icon" aria-label="X">x</a>
+            <a href="#" class="social-icon" aria-label="GitHub">gh</a>
+          </p>
+        </div>
+      </div>
+      <p class="contact-text-final">
+        Comparte el contexto de tu proyecto y coordinaremos una llamada para revisar opciones, riesgos y próximos pasos concretos.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Lyra Labander Solutions. Todos los derechos reservados.</p>
+      <nav aria-label="Legal">
+        <a href="#">Privacidad</a>
+        <a href="#">Términos</a>
+        <a href="#contrata" data-open-cotizador>Contratar</a>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- Personaje guía -->
+  <button class="guide-orb" type="button" data-guide aria-label="Ir al siguiente paso">
+    <span class="guide-face">LY</span>
+    <span class="guide-tooltip">¿Te acompaño al siguiente paso?</span>
+  </button>
+
+  <!-- WhatsApp floating button -->
+  <a class="wa-fab" href="https://wa.me/527861052332?text=Hola%20Lyra%20Labander%20Solutions,%20me%20gustar%C3%ADa%20hablar%20sobre%20un%20proyecto." target="_blank" rel="noopener">
+    <span class="wa-icon" aria-hidden="true"></span>
+    <span class="wa-label">WhatsApp</span>
+  </a>
+
+  <!-- MODAL COTIZADOR (multi‑paso) -->
+  <dialog id="cotizador" aria-labelledby="t-cotizador">
+    <form method="dialog" class="cotizador">
+      <header>
+        <h3 id="t-cotizador">Contrata un proyecto</h3>
+        <button type="button" class="icon-btn" data-close-cotizador aria-label="Cerrar">✕</button>
+      </header>
+
+      <div class="steps">
+        <!-- Paso 1 -->
+        <section class="step active" data-step="1" aria-label="Tipo de proyecto">
+          <h4>¿Qué necesitas?</h4>
+          <div class="options">
+            <label class="option">
+              <input type="radio" name="tipo" value="Software a la medida" checked />
+              <span>Software a la medida</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="tipo" value="Integración IoT" />
+              <span>Integración IoT</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="tipo" value="Experiencias mobile" />
+              <span>Experiencias mobile</span>
+            </label>
+            <label class="option">
+              <input type="radio" name="tipo" value="Estrategia y UX" />
+              <span>Estrategia y UX</span>
+            </label>
+          </div>
+        </section>
+
+        <!-- Paso 2 -->
+        <section class="step" data-step="2" aria-label="Industria">
+          <h4>Industria principal</h4>
+          <select name="industria" required>
+            <option value="Gimnasios y fitness" selected>Gimnasios y fitness</option>
+            <option>Retail</option>
+            <option>Manufactura</option>
+            <option>Energía y utilities</option>
+            <option>Salud y bienestar</option>
+            <option>Logística y cadena de frío</option>
+            <option>Otra</option>
+          </select>
+        </section>
+
+        <!-- Paso 3 -->
+        <section class="step" data-step="3" aria-label="Presupuesto">
+          <h4>Presupuesto estimado (USD)</h4>
+          <div class="range-wrap">
+            <input type="range" min="5000" max="150000" step="5000" value="30000" name="presupuesto" />
+            <output>$30,000</output>
+          </div>
+        </section>
+
+        <!-- Paso 4 -->
+        <section class="step" data-step="4" aria-label="Contacto">
+          <h4>Datos de contacto</h4>
+          <div class="form-grid">
+            <label>Nombre <input name="nombre" required placeholder="Tu nombre" /></label>
+            <label>Empresa <input name="empresa" placeholder="Nombre de empresa" /></label>
+            <label>Email <input type="email" name="email" required placeholder="tucorreo@empresa.com" /></label>
+            <label>Teléfono <input type="tel" name="tel" placeholder="+52..." /></label>
+          </div>
+          <label>Notas <textarea name="notas" rows="3" placeholder="Cuéntanos brevemente tu contexto actual y qué quieres lograr…"></textarea></label>
+        </section>
+      </div>
+
+      <footer class="wizard-actions">
+        <button type="button" class="btn btn-ghost" data-prev>Anterior</button>
+        <button type="button" class="btn btn-primary" data-next>Siguiente</button>
+        <button type="submit" class="btn btn-primary" data-submit hidden>Enviar solicitud</button>
+      </footer>
+
+      <p class="foot-note">Se abrirá tu cliente de correo con el resumen listo. Cambia el correo en <code>main.js</code> si es necesario.</p>
+    </form>
+  </dialog>
+</body>
+</html>
